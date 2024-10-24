@@ -1,0 +1,8 @@
+train: train/images
+val: val/images
+
+
+nc: 3
+
+
+names: ['magic', 'monster', 'trap']
