@@ -5,4 +5,4 @@ val: val/images
 nc: 3
 
 
-names: ['magic', 'monster', 'trap']
+names: ['attack_nullify','black_dragon','card_destruction','castor','change_heart','dark_hole','gazelle','horn_dragon','invitation','monster_reborn','pale_monster','paralyser','pot_greed','roar','sakuretsu']
