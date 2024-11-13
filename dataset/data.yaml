@@ -2,7 +2,7 @@ train: train/images
 val: val/images
 
 
-nc: 3
+nc: 15
 
 
-names: ['attack_nullify','black_dragon','card_destruction','castor','change_heart','dark_hole','gazelle','horn_dragon','invitation','monster_reborn','pale_monster','paralyser','pot_greed','roar','sakuretsu']
+names: ['attack_nullify', 'black_dragon', 'card_destruction', 'castor', 'change_heart', 'dark_hole', 'gazelle', 'horn_dragon', 'invitation', 'monster_reborn', 'pale_monster', 'paralyser', 'pot_greed', 'roar', 'sakuretsu']
