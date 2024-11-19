@@ -9,7 +9,7 @@ dataset_path = "dataset/data.yaml"  # Assure-toi que ce chemin est correct
 # Entraînement du modèle
 model.train(
     data=dataset_path,
-    epochs=10,        # Nombre d'époques
+    epochs=50,        # Nombre d'époques
     batch=16,         # Taille du batch (ajuste selon la capacité de ta machine)
-    name="custom_yolo_model"  # Nom du dossier où seront enregistrés les résultats
+    name="modele_cartes"  # Nom du dossier où seront enregistrés les résultats
 )
