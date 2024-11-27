@@ -50,26 +50,36 @@ public class ClassifyCardTest : MonoBehaviour
         outputTensor.Dispose(); // Libérer le tensor de sortie
     }
 
-    private float[] ApplySoftmax(float[] logits)
+    private float[] ApplySoftmax(float[] logits) 
+{
+    // Trouver la valeur maximale pour améliorer la stabilité numérique
+    float maxLogit = -1;
+    
+    for(int i = 0; i < logits.Length; i++)
+        {
+            if(logits[i] > maxLogit)
+            {
+                maxLogit = logits[i];
+            }
+        }
+    float sumExp = 0f;
+    float[] expValues = new float[logits.Length];
+    
+    // Appliquer exp(logit - maxLogit) pour la stabilité
+    for (int i = 0; i < logits.Length; i++) 
     {
-        float sumExp = 0f;
-        float[] expValues = new float[logits.Length];
-
-        // Calculer exp(x - maxLogit) pour chaque logit
-        for (int i = 0; i < logits.Length; i++)
-        {
-            expValues[i] = Mathf.Exp(logits[i]);
-            sumExp += expValues[i];
-        }
-
-        // Normaliser pour obtenir les probabilités
-        for (int i = 0; i < expValues.Length; i++)
-        {
-            expValues[i] /= sumExp;
-        }
-
-        return expValues;
+        expValues[i] = Mathf.Exp(logits[i] - maxLogit);
+        sumExp += expValues[i];
     }
+    
+    // Normaliser pour obtenir les probabilités
+    for (int i = 0; i < expValues.Length; i++) 
+    {
+        expValues[i] /= sumExp;
+    }
+    
+    return expValues;
+}
 
     private void OnDisable()
     {
