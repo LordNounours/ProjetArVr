@@ -52,21 +52,13 @@ public class ClassifyCardTest : MonoBehaviour
 
     private float[] ApplySoftmax(float[] logits)
     {
-        float maxLogit = float.MinValue;
-
-        // Trouver le maximum pour éviter l'overflow numérique
-        foreach (float logit in logits)
-        {
-            if (logit > maxLogit) maxLogit = logit;
-        }
-
         float sumExp = 0f;
         float[] expValues = new float[logits.Length];
 
         // Calculer exp(x - maxLogit) pour chaque logit
         for (int i = 0; i < logits.Length; i++)
         {
-            expValues[i] = Mathf.Exp(logits[i] - maxLogit);
+            expValues[i] = Mathf.Exp(logits[i]);
             sumExp += expValues[i];
         }
 
