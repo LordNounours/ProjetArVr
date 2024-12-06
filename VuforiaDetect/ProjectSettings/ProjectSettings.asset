@@ -962,7 +962,6 @@ PlayerSettings:
   syncCapabilities: 0
   platformCapabilities:
     WindowsStoreApps:
-      CodeGeneration: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: False
@@ -974,6 +973,7 @@ PlayerSettings:
       PrivateNetworkClientServer: False
       InternetClientServer: False
       VideosLibrary: False
+      BackgroundMediaPlayback: False
       Objects3D: False
       RemoteSystem: False
       BlockedChatMessages: False
@@ -995,9 +995,9 @@ PlayerSettings:
       PointOfService: False
       RecordedCallsFolder: False
       Contacts: False
-      Proximity: False
       InternetClient: True
-      BackgroundMediaPlayback: False
+      Proximity: False
+      CodeGeneration: False
       EnterpriseAuthentication: False
   metroTargetDeviceFamilies:
     Desktop: False
@@ -1059,7 +1059,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 3
   captureStartupLogs: {}
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 931d8d7b-04a5-4163-8daf-36876c74d899
   framebufferDepthMemorylessMode: 0

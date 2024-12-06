@@ -244,6 +244,134 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 18335052}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!1 &270007873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 270007877}
+  - component: {fileID: 270007876}
+  - component: {fileID: 270007875}
+  - component: {fileID: 270007874}
+  m_Layer: 0
+  m_Name: AreaTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &270007874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270007873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1973558268, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 270007876}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: --- EMPTY ---
+  mDatasetName: Vuforia/--- EMPTY ---.xml
+  mCastedBehaviour: {fileID: 270007876}
+--- !u!114 &270007875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270007873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af19d4b80f4fc4950b99eb9ea78ab6ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatusFilter: 1
+  UsePoseSmoothing: 0
+  AnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 3.3333333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3
+      value: 1
+      inSlope: 3.3333333
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &270007876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270007873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 329728757, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreviewVisible: 1
+  RuntimeOcclusion: 0
+  RuntimeCollider: 0
+  mTrackableName: --- EMPTY ---
+  mInitializedInEditor: 1
+  mDataSetPath: Vuforia/--- EMPTY ---.xml
+  AuthoringModelPath: 
+  OcclusionModelPath: 
+  MaxClippingHeight: 1.05
+  MinClippingHeight: -0.05
+  mSize: {x: 0, y: 0, z: 0}
+  mBoundingBox:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  mNavMeshModelPath: 
+  mVersion: 
+  mBBoxMin: {x: 0, y: 0, z: 0}
+  mBBoxMax: {x: 1, y: 1, z: 1}
+  mModelMesh: {fileID: 0}
+  mRequiresExternalPositions: 0
+  mPreview: {fileID: 270007874}
+--- !u!4 &270007877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270007873}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &339248680
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,7 +918,7 @@ GameObject:
   - component: {fileID: 1334629212}
   - component: {fileID: 1334629211}
   - component: {fileID: 1334629210}
-  - component: {fileID: 1334629209}
+  - component: {fileID: 1334629213}
   m_Layer: 0
   m_Name: RebornTarget
   m_TagString: Untagged
@@ -798,25 +926,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1334629209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334629208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1334629211}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: monser-reborn
-  mDatasetName: Vuforia/Projet-AR.xml
-  mCastedBehaviour: {fileID: 1334629211}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1334629210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -887,7 +996,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1334629209}
+  mPreview: {fileID: 1334629213}
 --- !u!4 &1334629212
 Transform:
   m_ObjectHideFlags: 0
@@ -904,6 +1013,25 @@ Transform:
   - {fileID: 339248681}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1334629213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334629208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1334629211}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: monser-reborn
+  mDatasetName: Vuforia/Projet-AR.xml
+  mCastedBehaviour: {fileID: 1334629211}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1790545704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,3 +1219,4 @@ SceneRoots:
   - {fileID: 18335053}
   - {fileID: 364141552}
   - {fileID: 1334629212}
+  - {fileID: 270007877}
