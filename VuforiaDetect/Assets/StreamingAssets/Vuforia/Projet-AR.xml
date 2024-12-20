@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <ImageTarget name="monser-reborn" size="1.000000 1.463415" />
-    <ImageTarget name="blue-eyes-dragon" size="0.500000 0.737463" />
+    <ImageTarget name="ra03-52c" size="0.050000 0.073077" />
+    <ImageTarget name="ygld-68" size="0.050000 0.073077" />
+    <ImageTarget name="stas-24" size="0.050000 0.073077" />
+    <ImageTarget name="ss04-5" size="0.050000 0.073077" />
+    <ImageTarget name="sr13-32" size="0.050000 0.073077" />
+    <ImageTarget name="sgx3-b18" size="0.050000 0.073077" />
+    <ImageTarget name="sdsb-36" size="0.050000 0.073077" />
+    <ImageTarget name="sdpl-35" size="0.050000 0.073077" />
+    <ImageTarget name="ra03-130q" size="0.050000 0.073077" />
+    <ImageTarget name="pale_monster" size="0.050000 0.073077" />
+    <ImageTarget name="mzmi-41" size="0.050000 0.073077" />
+    <ImageTarget name="lds3-20" size="0.050000 0.073077" />
+    <ImageTarget name="lcyw-157" size="0.050000 0.073077" />
+    <ImageTarget name="heart_change" size="0.050000 0.073077" />
+    <ImageTarget name="dragon-noir-aux-yeux-rouges-pgr-mago-yu-gi-oh" size="0.050000 0.050000" />
   </Tracking>
 </QCARConfig>
