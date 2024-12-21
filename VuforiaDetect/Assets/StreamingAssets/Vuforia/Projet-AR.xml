@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="terrain_propre" size="300.000000 149.399994" />
+    <ImageTarget name="terrain_max" size="300.000000 149.337265" />
+    <ImageTarget name="img_20241221_170644859" size="0.420000 0.236353" />
+    <ImageTarget name="terrain2" size="0.420000 1.123717" />
+    <ImageTarget name="terrain" size="0.420000 0.196077" />
     <ImageTarget name="ra03-52c" size="0.050000 0.073077" />
     <ImageTarget name="ygld-68" size="0.050000 0.073077" />
     <ImageTarget name="stas-24" size="0.050000 0.073077" />
