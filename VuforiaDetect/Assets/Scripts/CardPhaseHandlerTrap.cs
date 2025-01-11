@@ -7,6 +7,7 @@ public class CardPhaseHandlerTrap : MonoBehaviour
     public List<int> usablePhases = new List<int>();
 
     public int currentPhase;
+    public int currentPlayer;
 
     private Renderer renderer;
 
@@ -21,10 +22,10 @@ public class CardPhaseHandlerTrap : MonoBehaviour
 
     void Update()
     {
-         renderer.material.color = IsCardUsable(currentPhase) ? Color.green : Color.red;
+         renderer.material.color = IsCardUsable(currentPhase,currentPlayer) ? Color.green : Color.red;
     }
 
-    public bool IsCardUsable(int phase)
+    public bool IsCardUsable(int phase,int player)
     {
         return usablePhases.Contains(phase);
     }
