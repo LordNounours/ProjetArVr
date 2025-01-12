@@ -4,6 +4,7 @@ public class VariableManager : MonoBehaviour
 {
     public int currentPlayer = 0;
     public int currentPhase = 0;
+    public bool duelEnable = false;
 
     public void IncrementPhase(){
         currentPhase = (currentPhase + 1) % 6;
@@ -43,5 +44,13 @@ public class VariableManager : MonoBehaviour
 
     public string GetCurrentPlayerName(){
         return currentPlayer == 0 ? "Player 1" : "Player 2";
+    }
+
+    public void StartDuel(){
+        duelEnable = true;
+    }
+
+    public void EndDuel(){
+        duelEnable = false;
     }
 }
