@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 1341283}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00207, y: 0.030535, z: 0.01398}
+  m_LocalPosition: {x: -0.03487, y: 0.030535, z: 0.01398}
   m_LocalScale: {x: 0.0044105, y: 0.00055131246, z: 0.0044105}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -359,7 +359,7 @@ Transform:
   m_GameObject: {fileID: 14456515}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00207, y: 0.030535, z: 0.01398}
+  m_LocalPosition: {x: -0.03688, y: 0.030535, z: 0.01398}
   m_LocalScale: {x: 0.0044105, y: 0.00055131246, z: 0.0044105}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1555,7 +1555,7 @@ MonoBehaviour:
   m_text: "Guerrier Castor\n\nCette cr\xE9ature compense sa petite taille par une
     excellente m\xE9thode d\xE9fensive dans les batailles en plaine.\n\nInvocable
     normalement. N\xE9cessite une place dans votre zone monstre.\n\nPoss\xE9d\xE9
-    : \n\nUtilisable :"
+    :   \t\t\t\t\tATK/1200\n\nUtilisable : \t\t\t\tDEF/1500"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bee7b0cc4d885e94d9327d2c4d9f4007, type: 2}
   m_sharedMaterial: {fileID: -5244069949705733027, guid: bee7b0cc4d885e94d9327d2c4d9f4007,
@@ -1948,7 +1948,7 @@ Transform:
   m_GameObject: {fileID: 271543807}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00207, y: 0.030535, z: 0.01398}
+  m_LocalPosition: {x: -0.03819, y: 0.030535, z: 0.01398}
   m_LocalScale: {x: 0.0044105, y: 0.00055131246, z: 0.0044105}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2079,7 +2079,7 @@ Transform:
   m_GameObject: {fileID: 288391296}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00207, y: 0.030535, z: 0.01398}
+  m_LocalPosition: {x: -0.03633, y: 0.030535, z: 0.01398}
   m_LocalScale: {x: 0.0044105, y: 0.00055131246, z: 0.0044105}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2776,7 +2776,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0016, y: 0.0195}
+  m_AnchoredPosition: {x: -0.0366, y: 0.0195}
   m_SizeDelta: {x: 10, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &380796942
@@ -2801,8 +2801,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Dragon \xE0 Trois Cornes\n\n\"Dragon indigne poss\xE9dant trois cornes
     pointues sur la t\xEAte.\"\n\nInvocable normalement. N\xE9cessite de sacrifier
-    2 monstres sur votre terrain pour l'invoquer.\n\nPoss\xE9d\xE9 : \n\nUtilisable
-    : \n\n"
+    2 monstres sur votre terrain pour l'invoquer.\n\nPoss\xE9d\xE9 :   \t\t\t\t\tATK/2850\n\nUtilisable
+    : \t\t\t\tDEF/2350\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bee7b0cc4d885e94d9327d2c4d9f4007, type: 2}
   m_sharedMaterial: {fileID: -5244069949705733027, guid: bee7b0cc4d885e94d9327d2c4d9f4007,
@@ -3830,7 +3830,7 @@ Transform:
   m_GameObject: {fileID: 508398194}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00574, y: 0.0195, z: 0.00691}
+  m_LocalPosition: {x: -0.04394, y: 0.0195, z: 0.00691}
   m_LocalScale: {x: 0.0034684967, y: 0.00043356203, z: 0.0034684967}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4074,7 +4074,7 @@ Transform:
   m_GameObject: {fileID: 553902713}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00207, y: 0.030535, z: 0.01398}
+  m_LocalPosition: {x: -0.0378, y: 0.030535, z: 0.01398}
   m_LocalScale: {x: 0.0044105, y: 0.00055131246, z: 0.0044105}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -5646,7 +5646,7 @@ Transform:
   m_GameObject: {fileID: 842811083}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00207, y: 0.030535, z: 0.01398}
+  m_LocalPosition: {x: -0.03522, y: 0.030535, z: 0.01398}
   m_LocalScale: {x: 0.0044105, y: 0.00055131246, z: 0.0044105}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7189,7 +7189,7 @@ Transform:
   m_GameObject: {fileID: 1205768960}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00207, y: 0.030535, z: 0.01398}
+  m_LocalPosition: {x: -0.03675, y: 0.030535, z: 0.01398}
   m_LocalScale: {x: 0.0044105, y: 0.00055131246, z: 0.0044105}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7227,7 +7227,7 @@ Transform:
   m_GameObject: {fileID: 1212554459}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0029907227, y: 0.01961, z: 0.0078733}
+  m_LocalPosition: {x: -0.045317676, y: 0.01961, z: 0.0078733}
   m_LocalScale: {x: 0.003866691, y: 0.00048333636, z: 0.003866691}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7920,7 +7920,7 @@ Transform:
   m_GameObject: {fileID: 1304283972}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00207, y: 0.030535, z: 0.01398}
+  m_LocalPosition: {x: -0.03781, y: 0.030535, z: 0.01398}
   m_LocalScale: {x: 0.0044105, y: 0.00055131246, z: 0.0044105}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8210,7 +8210,7 @@ Transform:
   m_GameObject: {fileID: 1363450490}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00207, y: 0.030535, z: 0.01398}
+  m_LocalPosition: {x: -0.03527, y: 0.030535, z: 0.01398}
   m_LocalScale: {x: 0.0044105, y: 0.00055131246, z: 0.0044105}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8244,7 +8244,7 @@ Transform:
   m_GameObject: {fileID: 1365477885}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00207, y: 0.030535, z: 0.01398}
+  m_LocalPosition: {x: -0.03933, y: 0.030535, z: 0.01398}
   m_LocalScale: {x: 0.0044105, y: 0.00055131246, z: 0.0044105}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8437,7 +8437,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Monstre P\xE2le\n\nAvec sa peau de couleur bleut\xE9e, la vision de cette
     \xE9trange cr\xE9ature est insupportable.\n\nInvocable normalement. N\xE9cessite
-    une place dans votre zone monstre.\n\nPoss\xE9d\xE9 :\n\nUtilisable :"
+    une place dans votre zone monstre.\n\nPoss\xE9d\xE9 :   \t\t\t\t\tATK/1500\n\nUtilisable
+    : \t\t\t\tDEF/1200"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bee7b0cc4d885e94d9327d2c4d9f4007, type: 2}
   m_sharedMaterial: {fileID: -5244069949705733027, guid: bee7b0cc4d885e94d9327d2c4d9f4007,
@@ -9309,7 +9310,7 @@ Transform:
   m_GameObject: {fileID: 1544031652}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00207, y: 0.030535, z: 0.01398}
+  m_LocalPosition: {x: -0.03676, y: 0.030535, z: 0.01398}
   m_LocalScale: {x: 0.0044105, y: 0.00055131246, z: 0.0044105}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9347,7 +9348,7 @@ Transform:
   m_GameObject: {fileID: 1585809657}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0029907227, y: 0.01961, z: 0.00304}
+  m_LocalPosition: {x: -0.045317676, y: 0.01961, z: 0.00304}
   m_LocalScale: {x: 0.003866691, y: 0.00048333636, z: 0.003866691}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9504,7 +9505,7 @@ MonoBehaviour:
     qu'il semble n'\xEAtre qu'une illusion aux yeux des mortels.\r\n\r\n(Cette carte
     est toujours trait\xE9e comme une carte \"B\xEAte Fant\xF4me\".)\n\nInvocable
     normalement. N\xE9cessite une place dans votre zone monstre.\n\nPoss\xE9d\xE9
-    : \n\nUtilisable : "
+    :   \t\t\t\t\tATK/1500\n\nUtilisable : \t\t\t\tDEF/1200"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bee7b0cc4d885e94d9327d2c4d9f4007, type: 2}
   m_sharedMaterial: {fileID: -5244069949705733027, guid: bee7b0cc4d885e94d9327d2c4d9f4007,
@@ -10071,7 +10072,7 @@ Transform:
   m_GameObject: {fileID: 1679463212}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00207, y: 0.030535, z: 0.01398}
+  m_LocalPosition: {x: -0.03702, y: 0.030535, z: 0.01398}
   m_LocalScale: {x: 0.0044105, y: 0.00055131246, z: 0.0044105}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10546,7 +10547,7 @@ Transform:
   m_GameObject: {fileID: 1811373783}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00207, y: 0.030535, z: 0.01398}
+  m_LocalPosition: {x: -0.03659, y: 0.030535, z: 0.01398}
   m_LocalScale: {x: 0.0044105, y: 0.00055131246, z: 0.0044105}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10910,7 +10911,7 @@ Transform:
   m_GameObject: {fileID: 1937414462}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00574, y: 0.019499999, z: 0.0030165995}
+  m_LocalPosition: {x: -0.04394, y: 0.019499999, z: 0.0030165995}
   m_LocalScale: {x: 0.0034684963, y: 0.00043356203, z: 0.0034684963}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11222,7 +11223,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.005126953, y: 0.01961}
+  m_AnchoredPosition: {x: -0.0372, y: 0.01961}
   m_SizeDelta: {x: 10, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2014506190
@@ -11247,7 +11248,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Dragon Noir aux Yeux Rouges  \n\nDragon f\xE9roce \xE0 l'attaque meurtri\xE8re.
     Invocable normalement. N\xE9cessite de sacrifier 2 monstres sur votre terrain
-    pour l'invoquer.  \n\nPoss\xE9d\xE9 :   \n\nUtilisable : "
+    pour l'invoquer.  \n\nPoss\xE9d\xE9 :   \t\t\t\t\tATK/2400\n\nUtilisable : \t\t\t\tDEF/2000"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bee7b0cc4d885e94d9327d2c4d9f4007, type: 2}
   m_sharedMaterial: {fileID: -5244069949705733027, guid: bee7b0cc4d885e94d9327d2c4d9f4007,
