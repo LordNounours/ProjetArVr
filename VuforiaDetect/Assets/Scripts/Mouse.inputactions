@@ -1,0 +1,45 @@
+{
+    "name": "Mouse",
+    "maps": [
+        {
+            "name": "Click",
+            "id": "f278dc27-cea8-4a51-b37e-a0094ebc35c0",
+            "actions": [
+                {
+                    "name": "MouseClick",
+                    "type": "Button",
+                    "id": "59e28e9d-dca2-4f91-b0df-5b55540e736e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0ba1577a-5d3c-4b51-afe1-d59e4a44c5eb",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9579bbf1-3d9c-4f3a-bca1-a2b6f94ce681",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
