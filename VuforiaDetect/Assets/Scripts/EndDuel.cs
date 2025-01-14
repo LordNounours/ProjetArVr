@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class EndDuel : MonoBehaviour
@@ -8,7 +9,7 @@ public class EndDuel : MonoBehaviour
     public TextMeshProUGUI player2Text;
     public TextMeshProUGUI endText;
 
-    public Canvas EndUI;
+    public GameObject EndUI;
 
     // Variable pour stocker les valeurs numériques
     private int player1Value;

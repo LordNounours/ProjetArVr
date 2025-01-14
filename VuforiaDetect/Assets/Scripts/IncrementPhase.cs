@@ -56,6 +56,6 @@ public class IncrementPhase : MonoBehaviour
         }
 
         phaseText.text = "Current Phase :\n" + variableManager.GetCurrentPhaseName();
-        playerText.text = "Current Player : \n" + variableManager.GetCurrentPlayerName();
+        playerText.text = "Current Player :\n" + variableManager.GetCurrentPlayerName();
     }
 }

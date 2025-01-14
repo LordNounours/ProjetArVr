@@ -1,0 +1,5 @@
+C:/Users/Patateon/Documents/Cours/ProjetArVr/VuforiaDetect/.utmp/RelWithDebInfo/2u1u4x6o/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Patateon/Documents/Cours/ProjetArVr/VuforiaDetect/.utmp/RelWithDebInfo/2u1u4x6o/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/Patateon/Documents/Cours/ProjetArVr/VuforiaDetect/.utmp/RelWithDebInfo/2u1u4x6o/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/Patateon/Documents/Cours/ProjetArVr/VuforiaDetect/.utmp/RelWithDebInfo/2u1u4x6o/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/Patateon/Documents/Cours/ProjetArVr/VuforiaDetect/.utmp/RelWithDebInfo/2u1u4x6o/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
